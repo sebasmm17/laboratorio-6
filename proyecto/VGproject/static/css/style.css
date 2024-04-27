@@ -1,0 +1,24 @@
+.titulos{
+    color: rgb(29, 236, 19);
+}
+
+.navCategorias{
+    font-size: 25px;
+    color:aliceblue;
+}
+
+.navComunidad{
+    font-size: 25px;
+    color:white;
+}
+
+body{background-color: black;}
+
+ul{
+    list-style:none;
+}
+
+.fondoBoton{
+    background-color: rgb(29, 236, 19);
+}
+

@@ -16,15 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from VGproject.views import inicio,categorias,pago,vista_previa_producto,base
+from VGproject.views import inicio,perfil,categorias,pago,comunidad,base
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',base),
-    path('inicio/',inicio),
+    path('',inicio),
+    path('perfil/',perfil),
     path('categorias/',categorias),
     path('pago/',pago),
-    path('vista_previa_producto/',vista_previa_producto)
+    path('comunidad/',comunidad),
 ]
 
