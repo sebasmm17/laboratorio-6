@@ -22,3 +22,9 @@ def comunidad(request):
 
 def base(request):
     return render(request,"base.html")
+
+def logup(request):
+    return render (request,"logup.html")
+
+def login(request):
+    return render (request,"login.html")
